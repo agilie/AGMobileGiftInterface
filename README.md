@@ -20,6 +20,18 @@ Our library helps you achieve the desired result in an easy way with as little l
 
 After an animated picture has been played, the controller managing it closes. And if you want to add a new image, just put it into the project and provide the GIF path as parameter and call method show. 
 
+````objective-c
+
+@IBAction func showFox(_ sender: Any) {
+        AGMobileGiftInterface.show(gifName : "fox")
+    }
+
+@IBAction func showRabbit(_ sender: Any) {
+        AGMobileGiftInterface.show(gifName : "rabbit")
+    }
+
+````
+
 ### Our example of using AGMobileGiftInterface
 We’ve used this library when working on Easter greeting program. Quite simple, it has 3 GIF images in its reserve (Ladybird, Rabbit, Fox) but can also be supplemented with new ones. 
 We made example to congratulate the use on the day of Easter.
