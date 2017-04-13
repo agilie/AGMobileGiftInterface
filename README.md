@@ -16,10 +16,13 @@ When can you use AGMobileGiftInterface?
 Use our library if you need to show a GIF image after performing a certain pre-specified action. AGMobileGiftInterface can also be helpful for creating animated greetings, designing splash screens or loading, upgrading and supplementing online games as well as in other similar cases.
 Our library helps you achieve the desired result in an easy way with as little lines of code as possible.
 
-# How does it work?
+### How does it work?
 
 After an animated picture has been played, the controller managing it closes. And if you want to add a new image, just put it into the project and provide the GIF path as parameter and call method show. 
 
+### Our example of using AGMobileGiftInterface
+We’ve used this library when working on Easter greeting program. Quite simple, it has 3 GIF images in its reserve (Ladybird, Rabbit, Fox) but can also be supplemented with new ones. 
+We made example to congratulate the use on the day of Easter.
 
 ## Usage
 
