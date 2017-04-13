@@ -41,7 +41,7 @@ We made example to congratulate the use on the day of Easter.
 
 ## Usage
 
-CocoaPods is the recommended way to add DisPlayer to your project:
+CocoaPods is the recommended way to add AGMobileGiftInterface to your project:
  
 1. Add a pod entry for AGMobileGiftInterface to your Podfile pod 'AGMobileGiftInterface'
 2. Install the pod(s) by running pod installation.
@@ -50,7 +50,7 @@ CocoaPods is the recommended way to add DisPlayer to your project:
 
 AGMobileGiftInterface works on iOS 8.0+ and is compatible with ARC projects.
 It depends on the following Apple frameworks, which should already be included with most Xcode templates:
-You will need LLVM 3.0 or later in order to build “DisPlayer”
+You will need LLVM 3.0 or later in order to build “AGMobileGiftInterface”
 
 ## Installation
 
