@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AGMobileGiftInterface
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,17 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func showFox(_ sender: Any) {
+        AGMobileGiftInterface.show(gifName : "fox")
+    }
+    
+    @IBAction func showRabbit(_ sender: Any) {
+        AGMobileGiftInterface.show(gifName : "rabbit")
+    }
 
+    @IBAction func showLadybird(_ sender: Any) {
+        AGMobileGiftInterface.show(gifName : "ladybird")
+    }
 }
 

@@ -15,6 +15,9 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		CEA128911E9F7798008E5E43 /* fox.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEA1288E1E9F7798008E5E43 /* fox.gif */; };
+		CEA128921E9F7798008E5E43 /* ladybird.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEA1288F1E9F7798008E5E43 /* ladybird.gif */; };
+		CEA128931E9F7798008E5E43 /* rabbit.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEA128901E9F7798008E5E43 /* rabbit.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +34,9 @@
 		17C9056AA9BEFBD9B221BD4C /* Pods-AGMobileGiftInterface_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGMobileGiftInterface_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGMobileGiftInterface_Example/Pods-AGMobileGiftInterface_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1858FDA7CF5FE70D3E39C39D /* Pods-AGMobileGiftInterface_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGMobileGiftInterface_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGMobileGiftInterface_Tests/Pods-AGMobileGiftInterface_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		47D5DBCF33B7995DD66169C7 /* Pods_AGMobileGiftInterface_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGMobileGiftInterface_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DEE95CF3876D920E6259D99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4DEE95CF3876D920E6259D99 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		58798435C2E2C6EDF20D50C1 /* Pods_AGMobileGiftInterface_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGMobileGiftInterface_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5B27DB87DB91C51A6B459968 /* AGMobileGiftInterface.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AGMobileGiftInterface.podspec; path = ../AGMobileGiftInterface.podspec; sourceTree = "<group>"; };
+		5B27DB87DB91C51A6B459968 /* AGMobileGiftInterface.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AGMobileGiftInterface.podspec; path = ../AGMobileGiftInterface.podspec; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AGMobileGiftInterface_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGMobileGiftInterface_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +47,12 @@
 		607FACE51AFB9204008FA782 /* AGMobileGiftInterface_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGMobileGiftInterface_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		77390BD7D1279B5D1AAEEAF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		77390BD7D1279B5D1AAEEAF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		878AF9171D95246B20F6CB12 /* Pods-AGMobileGiftInterface_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGMobileGiftInterface_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGMobileGiftInterface_Example/Pods-AGMobileGiftInterface_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CE4B62099CEB98B500A5E2ED /* Pods-AGMobileGiftInterface_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGMobileGiftInterface_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGMobileGiftInterface_Tests/Pods-AGMobileGiftInterface_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEA1288E1E9F7798008E5E43 /* fox.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = fox.gif; path = Resources/fox.gif; sourceTree = "<group>"; };
+		CEA1288F1E9F7798008E5E43 /* ladybird.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ladybird.gif; path = Resources/ladybird.gif; sourceTree = "<group>"; };
+		CEA128901E9F7798008E5E43 /* rabbit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = rabbit.gif; path = Resources/rabbit.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,7 @@
 		607FACD21AFB9204008FA782 /* Example for AGMobileGiftInterface */ = {
 			isa = PBXGroup;
 			children = (
+				CEA1288D1E9F7711008E5E43 /* Resources */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -157,6 +164,17 @@
 				58798435C2E2C6EDF20D50C1 /* Pods_AGMobileGiftInterface_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEA1288D1E9F7711008E5E43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1288E1E9F7798008E5E43 /* fox.gif */,
+				CEA1288F1E9F7798008E5E43 /* ladybird.gif */,
+				CEA128901E9F7798008E5E43 /* rabbit.gif */,
+			);
+			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,9 +266,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA128911E9F7798008E5E43 /* fox.gif in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				CEA128931E9F7798008E5E43 /* rabbit.gif in Resources */,
+				CEA128921E9F7798008E5E43 /* ladybird.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
