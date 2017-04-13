@@ -25,8 +25,8 @@ After an animated picture has been played, the controller managing it closes. An
 
 CocoaPods is the recommended way to add DisPlayer to your project:
  
- 1. Add a pod entry for AGMobileGiftInterface to your Podfile pod 'AGMobileGiftInterface'
- 2. Install the pod(s) by running pod installation.
+1. Add a pod entry for AGMobileGiftInterface to your Podfile pod 'AGMobileGiftInterface'
+2. Install the pod(s) by running pod installation.
 
 ## Requirements
 
