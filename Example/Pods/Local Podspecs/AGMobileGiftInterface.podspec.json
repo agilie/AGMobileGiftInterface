@@ -1,0 +1,22 @@
+{
+  "name": "AGMobileGiftInterface",
+  "version": "0.1.0",
+  "summary": "A short description of AGMobileGiftInterface.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liptugamichael@gmail.com/AGMobileGiftInterface",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liptugamichael@gmail.com": "liptugamichael@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/liptugamichael@gmail.com/AGMobileGiftInterface.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AGMobileGiftInterface/Classes/**/*"
+}

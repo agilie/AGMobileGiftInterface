@@ -1,0 +1,16 @@
+PODS:
+  - AGMobileGiftInterface (0.1.0)
+
+DEPENDENCIES:
+  - AGMobileGiftInterface (from `../`)
+
+EXTERNAL SOURCES:
+  AGMobileGiftInterface:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AGMobileGiftInterface: d0b67ee3c55720442e21bf8158bbf49201a77768
+
+PODFILE CHECKSUM: fde6d6a13cd99c3a568fd757300a014176afb98c
+
+COCOAPODS: 1.2.0.beta.1
