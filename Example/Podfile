@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AGMobileGiftInterface_Example' do
+  pod 'AGMobileGiftInterface', :path => '../'
+
+  target 'AGMobileGiftInterface_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
