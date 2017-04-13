@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/AGMobileGiftInterface.svg?style=flat)](http://cocoapods.org/pods/AGMobileGiftInterface)
 [![Platform](https://img.shields.io/cocoapods/p/AGMobileGiftInterface.svg?style=flat)](http://cocoapods.org/pods/AGMobileGiftInterface)
 
+<img src="https://cloud.githubusercontent.com/assets/4165054/25009817/bdf0869c-2070-11e7-97ea-860c239bae84.gif" alt="Fox" height="375" width="215" border ="50">   <img src="https://cloud.githubusercontent.com/assets/4165054/25009821/c176ebee-2070-11e7-8008-3a20881604b5.gif" alt="Rabbit" height="375" width="215">
+<img src="https://cloud.githubusercontent.com/assets/4165054/25009823/c400d596-2070-11e7-8e70-4e8e89a4bad4.gif" alt="Ladybird" height="375" width="215">
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
