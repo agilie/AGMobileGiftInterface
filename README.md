@@ -9,7 +9,30 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+The developers of Agilie team would like to offer you our new lightweight open-source library called AGMobileGiftInterface. 
+This library simplifies interaction with GIF images and can be easily integrated into your project.
+
+When can you use AGMobileGiftInterface?
+Use our library if you need to show a GIF image after performing a certain pre-specified action. AGMobileGiftInterface can also be helpful for creating animated greetings, designing splash screens or loading, upgrading and supplementing online games as well as in other similar cases.
+Our library helps you achieve the desired result in an easy way with as little lines of code as possible.
+
+# How does it work?
+
+After an animated picture has been played, the controller managing it closes. And if you want to add a new image, just put it into the project and provide the GIF path as parameter and call method show. 
+
+
+## Usage
+
+CocoaPods is the recommended way to add DisPlayer to your project:
+ 
+ 1. Add a pod entry for AGMobileGiftInterface to your Podfile pod 'AGMobileGiftInterface'
+ 2. Install the pod(s) by running pod installation.
+
 ## Requirements
+
+AGMobileGiftInterface works on iOS 8.0+ and is compatible with ARC projects.
+It depends on the following Apple frameworks, which should already be included with most Xcode templates:
+You will need LLVM 3.0 or later in order to build “DisPlayer”
 
 ## Installation
 
@@ -22,7 +45,7 @@ pod "AGMobileGiftInterface"
 
 ## Author
 
-liptugamichael@gmail.com, liptugamichael@gmail.com
+This library is open-sourced by [Agilie Team](https://www.agilie.com)
 
 ## License
 
