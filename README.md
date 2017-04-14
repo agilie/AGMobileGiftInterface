@@ -12,7 +12,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-The developers of Agilie team would like to offer you our new lightweight open-source library called AGMobileGiftInterface. 
+[Agilie Team](https://www.agilie.com) would like to offer you our new lightweight open-source library called AGMobileGiftInterface. 
 This library simplifies interaction with GIF images and can be easily integrated into your project.
 
 When can you use AGMobileGiftInterface?
