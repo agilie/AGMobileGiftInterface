@@ -8,16 +8,16 @@
 <img src="https://cloud.githubusercontent.com/assets/4165054/25009817/bdf0869c-2070-11e7-97ea-860c239bae84.gif" alt="Fox" height="400" width="250" border ="50">   <img src="https://cloud.githubusercontent.com/assets/4165054/25009821/c176ebee-2070-11e7-8008-3a20881604b5.gif" alt="Rabbit" height="400" width="250">
 <img src="https://cloud.githubusercontent.com/assets/4165054/25009823/c400d596-2070-11e7-8e70-4e8e89a4bad4.gif" alt="Ladybird" height="400" width="250">
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 [Agilie Team](https://www.agilie.com) would like to offer you our new lightweight open-source library called AGMobileGiftInterface. 
 This library simplifies interaction with GIF images and can be easily integrated into your project.
 
 When can you use AGMobileGiftInterface?
 Use our library if you need to show a GIF image after performing a certain pre-specified action. AGMobileGiftInterface can also be helpful for creating animated greetings, designing splash screens or loading, upgrading and supplementing online games as well as in other similar cases.
 Our library helps you achieve the desired result in an easy way with as little lines of code as possible.
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ### How does it work?
 
