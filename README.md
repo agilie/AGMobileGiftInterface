@@ -8,7 +8,7 @@
 <img src="https://cloud.githubusercontent.com/assets/4165054/25009817/bdf0869c-2070-11e7-97ea-860c239bae84.gif" alt="Fox" height="400" width="250" border ="50">   <img src="https://cloud.githubusercontent.com/assets/4165054/25009821/c176ebee-2070-11e7-8008-3a20881604b5.gif" alt="Rabbit" height="400" width="250">
 <img src="https://cloud.githubusercontent.com/assets/4165054/25009823/c400d596-2070-11e7-8e70-4e8e89a4bad4.gif" alt="Ladybird" height="400" width="250">
 
-[Agilie Team](https://www.agilie.com) would like to offer you our new lightweight open-source library called AGMobileGiftInterface. 
+[Agilie Team](https://agilie.com/en/ios-development-services) would like to offer you our new lightweight open-source library called AGMobileGiftInterface. 
 This library simplifies interaction with GIF images and can be easily integrated into your project.
 
 When can you use AGMobileGiftInterface?
