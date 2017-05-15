@@ -48,7 +48,7 @@ After we choose a way to initiate animation, just provide view and duration as p
 ````swift
 
 @IBAction startButtonDidTouch(_ sender: Any) {
-        self.dynamicService.startGravityView(view: self.view, duration: 10, collisionMode: .everything)
+        self.agGravityService.startGravityView(view: self.view, duration: 10, collisionMode: .everything)
     }
 
 ````
@@ -59,6 +59,7 @@ After we choose a way to initiate animation, just provide view and duration as p
    We’ve used this library when working on Easter greeting program. Quite simple, it has 3 GIF images in its reserve (Ladybird, Rabbit, Fox) but can also be supplemented with new ones. We made example to congratulate the use on the day of Easter.
 
    Moreover, we have recently supplemented our library with the new interesting animation. In its updated version, our library captures any interface (screen or view) and throws its UI elements over under the influence of gravity, so that one can move them from side to side obliquely. By default, the animation lasts for about 3-4 seconds, but you can adjust its duration at your discretion. After the animation has been completed, all the UI elements returns to their original location.
+(Note: We are working with native UI elements (UILabel, UIButton, UIImageView, UISwitch, UISlider, UITExtField, UIProgressView, UITableView/UICollectionView). If listed UI elements embedded in UIView or UIScrollView, library picks it up and animates it separately. We keep on working to handle most intricate interface.)
 
 This animations can be easily used during the development of any application as an event activated after a specified user action.
 
