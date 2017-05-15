@@ -21,9 +21,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ### How does it work?
 
+GifPlaying:
+
 After an animated picture has been played, the controller managing it closes. And if you want to add a new image, just put it into the project and provide the GIF path as parameter and call method show. 
 
-````objective-c
+````swift
 
 @IBAction func showFox(_ sender: Any) {
         AGMobileGiftInterface.show(gifName : "fox")
@@ -35,9 +37,26 @@ After an animated picture has been played, the controller managing it closes. An
 
 ````
 
-### Our example of using AGMobileGiftInterface
-We’ve used this library when working on Easter greeting program. Quite simple, it has 3 GIF images in its reserve (Ladybird, Rabbit, Fox) but can also be supplemented with new ones. 
-We made example to congratulate the use on the day of Easter.
+StartGravity:
+
+After we choose a way to initiate animation, just provide view and duration as parameters call the method startGravityView(view: duration: collisionMode:)
+
+````swift
+
+@IBAction startButtonDidTouch(_ sender: Any) {
+        self.dynamicService.startGravityView(view: self.view, duration: 10, collisionMode: .everything)
+    }
+
+````
+
+
+### Our examples of animations with AGMobileGiftInterface:
+
+   We’ve used this library when working on Easter greeting program. Quite simple, it has 3 GIF images in its reserve (Ladybird, Rabbit, Fox) but can also be supplemented with new ones. We made example to congratulate the use on the day of Easter.
+
+   Moreover, we have recently supplemented our library with the new interesting animation. In its updated version, our library captures any interface (screen or view) and throws its UI elements over under the influence of gravity, so that one can move them from side to side obliquely. By default, the animation lasts for about 3-4 seconds, but you can adjust its duration at your discretion. After the animation has been completed, all the UI elements returns to their original location.
+
+This animations can be easily used during the development of any application as an event activated after a specified user action.
 
 ## Usage
 
