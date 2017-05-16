@@ -11,7 +11,9 @@
 
 ### StartGravity:
 
-<img src="https://cloud.githubusercontent.com/assets/4165054/26112030/7154b75a-3a5f-11e7-903a-af47b80318af.gif" alt="Everything" height="400" width="250" border ="50">
+<img src="https://cloud.githubusercontent.com/assets/4165054/26112030/7154b75a-3a5f-11e7-903a-af47b80318af.gif" alt="Everything" height="410" width="250" border ="50">
+
+<img src="https://cloud.githubusercontent.com/assets/4165054/26115830/d1c64b4e-3a69-11e7-97ad-bf1fcbafd8ff.gif" alt="Boundaries" height="410" width="250" border ="50">
 
 [Agilie Team](https://agilie.com/en/ios-development-services) would like to offer you our new lightweight open-source library called AGMobileGiftInterface. 
 This library simplifies interaction with GIF images and can be easily integrated into your project.
