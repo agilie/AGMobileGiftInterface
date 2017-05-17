@@ -1,22 +1,27 @@
 {
   "name": "AGMobileGiftInterface",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "platforms": {
+    "ios": "8.0"
+  },
   "summary": "A short description of AGMobileGiftInterface.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liptugamichael@gmail.com/AGMobileGiftInterface",
+  "homepage": "https://github.com/agilie/AGMobileGiftInterface",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "liptugamichael@gmail.com": "liptugamichael@gmail.com"
+    "Agilie": "info@agilie.com"
   },
   "source": {
-    "git": "https://github.com/liptugamichael@gmail.com/AGMobileGiftInterface.git",
+    "git": "https://github.com/agilie/AGMobileGiftInterface.git",
     "tag": "0.1.0"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "AGMobileGiftInterface/Classes/**/*"
+  "source_files": "AGMobileGiftInterface/Classes/**/*.{swift}",
+  "frameworks": [
+    "UIKit",
+    "ImageIO",
+    "CoreMotion"
+  ]
 }

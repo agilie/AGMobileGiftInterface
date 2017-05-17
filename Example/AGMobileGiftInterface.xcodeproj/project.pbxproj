@@ -233,10 +233,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = B83NCPL58G;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = B83NCPL58G;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -517,11 +520,14 @@
 			baseConfigurationReference = 17C9056AA9BEFBD9B221BD4C /* Pods-AGMobileGiftInterface_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B83NCPL58G;
 				INFOPLIST_FILE = AGMobileGiftInterface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -531,11 +537,14 @@
 			baseConfigurationReference = 878AF9171D95246B20F6CB12 /* Pods-AGMobileGiftInterface_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = B83NCPL58G;
 				INFOPLIST_FILE = AGMobileGiftInterface/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -544,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE4B62099CEB98B500A5E2ED /* Pods-AGMobileGiftInterface_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = B83NCPL58G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -564,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1858FDA7CF5FE70D3E39C39D /* Pods-AGMobileGiftInterface_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = B83NCPL58G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

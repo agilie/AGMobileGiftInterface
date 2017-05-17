@@ -1,11 +1,25 @@
-use_frameworks!
+workspace ‘animationExamples'
 
-target 'AGMobileGiftInterface_Example' do
+use_frameworks!
+ 
+project 'AGMobileGiftInterface.xcodeproj'
+project 'AGGravityServiceExample.xcodeproj'
+
+def pods
   pod 'AGMobileGiftInterface', :path => '../'
+end
+ 
+target 'AGMobileGiftInterface_Example' do
+  pods
+  project 'AGMobileGiftInterface.xcodeproj'
 
   target 'AGMobileGiftInterface_Tests' do
     inherit! :search_paths
-
-    
   end
+end 
+
+target 'AGGravityServiceExample' do
+    pods
+    project 'AGGravityServiceExample.xcodeproj'
 end
+

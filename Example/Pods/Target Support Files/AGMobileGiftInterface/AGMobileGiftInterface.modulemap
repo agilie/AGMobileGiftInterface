@@ -1,6 +1,0 @@
-framework module AGMobileGiftInterface {
-  umbrella header "AGMobileGiftInterface-umbrella.h"
-
-  export *
-  module * { export * }
-}

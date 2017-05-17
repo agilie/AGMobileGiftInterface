@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AGMobileGiftInterface'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.platform         = :ios, '8.0'
   s.summary          = 'A short description of AGMobileGiftInterface.'
 
@@ -31,5 +31,5 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-    s.frameworks = 'UIKit', 'ImageIO'
+    s.frameworks = 'UIKit', 'ImageIO', 'CoreMotion'
 end

@@ -7,71 +7,120 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		128ABD4866A8C5743C9F473132187B0C /* Pods-AGMobileGiftInterface_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CAEDBBDA1AF09EA58F7402818A0CACA /* Pods-AGMobileGiftInterface_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B64E7BAFDAB87CF93349DFEB2B0C676 /* Pods-AGMobileGiftInterface_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F404A7F3989331517722075EB68BB556 /* Pods-AGMobileGiftInterface_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		516BC0E732499049C648E11E9A276167 /* AGMobileGiftInterface-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0437B981055A4ECF8F87BFF60CD7682 /* AGMobileGiftInterface-dummy.m */; };
-		7BDA8F47C913172D0BB73F5C07876000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		846352DA68ACFE4DD6D340A641E80058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		92470382FAE6B166A032460C5ECD28E9 /* Pods-AGMobileGiftInterface_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 194CF17EC60B3BA15ADD4486656DE773 /* Pods-AGMobileGiftInterface_Tests-dummy.m */; };
-		9AC79F2E8BBD8E20D8E8495D8AD6B415 /* AGMobileGiftInterface-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F0F485426C03D7D22CBEABC5299A0D1 /* AGMobileGiftInterface-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAC1187678AC9008A8BA7B7E81695B42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		CEA128821E9F7402008E5E43 /* AGMobileGiftInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA128811E9F7402008E5E43 /* AGMobileGiftInterface.swift */; };
-		CEA128881E9F744C008E5E43 /* AGGifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA128831E9F744C008E5E43 /* AGGifImage.swift */; };
-		CEA128891E9F744C008E5E43 /* AGGifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA128841E9F744C008E5E43 /* AGGifImageView.swift */; };
-		CEA1288A1E9F744C008E5E43 /* AGImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA128851E9F744C008E5E43 /* AGImageStorage.swift */; };
-		CEA1288B1E9F744C008E5E43 /* AGImageViewStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA128861E9F744C008E5E43 /* AGImageViewStorage.swift */; };
-		CEA1288C1E9F744C008E5E43 /* AGVisibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA128871E9F744C008E5E43 /* AGVisibleViewController.swift */; };
-		E7F0FF2827B35A63669B39064172BB07 /* Pods-AGMobileGiftInterface_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9BF8ADB3C8240C61A946B0B50A4D99 /* Pods-AGMobileGiftInterface_Example-dummy.m */; };
+		0CFFFD99A07BEE8CD070971A4111097D /* AGVisibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83207A7D47980B1443E762FED0F5A0A5 /* AGVisibleViewController.swift */; };
+		0F380097739F8DB553576BB3596E66B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9845F72131D96DB6301F0367DC01EA /* Foundation.framework */; };
+		12324FC6C89B7302BAD46A5CD85385FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9845F72131D96DB6301F0367DC01EA /* Foundation.framework */; };
+		12FB51A33210846310D13E12A42299E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F12617AB7D65BAC0DDAB5F6D0975D1 /* UIKit.framework */; };
+		1B64E7BAFDAB87CF93349DFEB2B0C676 /* Pods-AGMobileGiftInterface_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8ECADB121B119C954D7439B032E252A /* Pods-AGMobileGiftInterface_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F2D463D8BDC5E9973AC4E53B1B90E8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A9C7E726F92DE0E503E21D02D7F24 /* CoreMotion.framework */; };
+		294C1657B9BE81D582E644A54A0C4F7B /* AGMobileGiftInterface-iOS9.1-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63AAACDF67EB7A60F7B26605F0C0E053 /* AGMobileGiftInterface-iOS9.1-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29D4453B8E39808DAF495D698C0ED61C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90557A16422535C4A568D33BF682AB77 /* ImageIO.framework */; };
+		2A449FF16A36B90094A0CF7230764174 /* Pods-AGMobileGiftInterface_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD07D81A25D3015FF251A37389715234 /* Pods-AGMobileGiftInterface_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34219BEA0A754EB10F79C0BA01B7F100 /* AGImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DED9427314AEE3C9C9E78D8A1CA83E /* AGImageStorage.swift */; };
+		34B267A7B1BA81A108E8A14E35DC9D7D /* AGGifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6709C05EF7A68F22C6608A26D725E0 /* AGGifImage.swift */; };
+		43DEE149D414AE56743342F2E5B103DE /* AGMobileGiftInterface-iOS9.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE821BB99CDAB775DE5F01CD3CBD620A /* AGMobileGiftInterface-iOS9.1-dummy.m */; };
+		4BB20E5928B4EF819A6D4AB235C13C2E /* AGImageViewStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B744CFA5ACE0BCF4EBE83EE47EDCCF6E /* AGImageViewStorage.swift */; };
+		50528A171DED970E27949B095579016C /* AGGifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DA195858ADF94640C07DD98E3AA43 /* AGGifImageView.swift */; };
+		5A890794F07D013BCE244A8FA3827575 /* AGMobileGiftInterface-iOS8.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE08828A599D04749E6BD8D7650CDC3 /* AGMobileGiftInterface-iOS8.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68451856539934DA760677B221E40EED /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8A9C7E726F92DE0E503E21D02D7F24 /* CoreMotion.framework */; };
+		7EED351C3B8DE5C200CFE1AAC146EB6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9845F72131D96DB6301F0367DC01EA /* Foundation.framework */; };
+		846352DA68ACFE4DD6D340A641E80058 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9845F72131D96DB6301F0367DC01EA /* Foundation.framework */; };
+		884869485B83A0195FB5963D98CA3EFE /* AGMobileGiftInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F192610EC4FE6E51CD8A62CA60BE0218 /* AGMobileGiftInterface.swift */; };
+		8FA637DC8E17EF5AA155A6D35E6CAE9F /* AGGifImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25DA195858ADF94640C07DD98E3AA43 /* AGGifImageView.swift */; };
+		90BDB0686A291EF994CBFFB870B40862 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9845F72131D96DB6301F0367DC01EA /* Foundation.framework */; };
+		92470382FAE6B166A032460C5ECD28E9 /* Pods-AGMobileGiftInterface_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0C86735C15E99DCDC8889C582FF0B3 /* Pods-AGMobileGiftInterface_Tests-dummy.m */; };
+		A010159E40484A6A07909BC096D2E8CF /* AGGravityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C145BFF69C6522EE9392D3675125D120 /* AGGravityService.swift */; };
+		A47ADA04415AC59AC6D775C227B84197 /* AGGifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6709C05EF7A68F22C6608A26D725E0 /* AGGifImage.swift */; };
+		A60EA54C484CB145609778F8C3E61E3A /* AGMobileGiftInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F192610EC4FE6E51CD8A62CA60BE0218 /* AGMobileGiftInterface.swift */; };
+		A9DFCC1D6757E98616C04597E4C832BA /* Pods-AGGravityServiceExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEBD36A9B90D27626911195F00CCA91 /* Pods-AGGravityServiceExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA41965723AC950E7BB7474AA7116492 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F12617AB7D65BAC0DDAB5F6D0975D1 /* UIKit.framework */; };
+		AB18B3310889771193893BC79E4145D2 /* AGImageViewStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B744CFA5ACE0BCF4EBE83EE47EDCCF6E /* AGImageViewStorage.swift */; };
+		C384E8392C5CF174E4FC0A52030234FC /* AGImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DED9427314AEE3C9C9E78D8A1CA83E /* AGImageStorage.swift */; };
+		C50BF3FF8B6B8F01D218409EBFA9704A /* Pods-AGMobileGiftInterface_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E26AA98CC15260BAD0CE5ED72F570D62 /* Pods-AGMobileGiftInterface_Example-dummy.m */; };
+		C6250ECB0DFF1A521AC717D5F1CC1AEA /* AGGravityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C145BFF69C6522EE9392D3675125D120 /* AGGravityService.swift */; };
+		D01A74E6684816949C67BA74BA9C8353 /* AGMobileGiftInterface-iOS8.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E613736FE89264DAF337235F19B3B73 /* AGMobileGiftInterface-iOS8.3-dummy.m */; };
+		E863B5CECDD367857BEBD0A392C84AA9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90557A16422535C4A568D33BF682AB77 /* ImageIO.framework */; };
+		FBF9B67BB22050C14A2D6D717769CFEB /* AGVisibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83207A7D47980B1443E762FED0F5A0A5 /* AGVisibleViewController.swift */; };
+		FDF1B03C14E875EE1246421E7FEA4923 /* Pods-AGGravityServiceExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ABBC7C0F05DB499F568FEA94786003E /* Pods-AGGravityServiceExample-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AAAE2D236EE001E71800D7E2203A9C7A /* PBXContainerItemProxy */ = {
+		6EE0C684D4920D9CA25F514E72606A58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D78A81DD91F8E97366692EC9BE3D846;
-			remoteInfo = AGMobileGiftInterface;
+			remoteGlobalIDString = 49523D48FC45CBD1F909F875FA93A13E;
+			remoteInfo = "AGMobileGiftInterface-iOS8.3";
+		};
+		76E35C918D64BDB9D81FD973290C643C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C9ACE013A86173C8B319D90B515B157;
+			remoteInfo = "AGMobileGiftInterface-iOS9.1";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0FC190AD9B4CAA38F6408FF0E6F414CF /* AGMobileGiftInterface-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGMobileGiftInterface-prefix.pch"; sourceTree = "<group>"; };
-		165694733A968DC24D196DD55CD5C5A0 /* Pods-AGMobileGiftInterface_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGMobileGiftInterface_Tests.modulemap"; sourceTree = "<group>"; };
-		194CF17EC60B3BA15ADD4486656DE773 /* Pods-AGMobileGiftInterface_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGMobileGiftInterface_Tests-dummy.m"; sourceTree = "<group>"; };
-		195E2452167EE86460E6E57B02C9210B /* Pods-AGMobileGiftInterface_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGMobileGiftInterface_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21B26DDDBDF0AF1FA569C76CE7C47855 /* Pods-AGMobileGiftInterface_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Tests-resources.sh"; sourceTree = "<group>"; };
-		4759EDE2A95A3CE48EA4043279B6F41C /* AGMobileGiftInterface.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AGMobileGiftInterface.xcconfig; sourceTree = "<group>"; };
-		4A9BF8ADB3C8240C61A946B0B50A4D99 /* Pods-AGMobileGiftInterface_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGMobileGiftInterface_Example-dummy.m"; sourceTree = "<group>"; };
-		56EFE2884AA373443B108CB3F0949C75 /* Pods-AGMobileGiftInterface_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5B8A35590ADB839CC674A28F6EFE2D13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70B317BE367CA43FF1113C1B69C25322 /* Pods-AGMobileGiftInterface_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGMobileGiftInterface_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7384E89CD420D9886CDC36B40B877D8E /* Pods_AGMobileGiftInterface_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGMobileGiftInterface_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		875B2BDD0A3088B6509766D04C69C66F /* AGMobileGiftInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGMobileGiftInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C04718A559B8C73C38E2905B1C991D3 /* Pods-AGMobileGiftInterface_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Example-resources.sh"; sourceTree = "<group>"; };
-		8CAEDBBDA1AF09EA58F7402818A0CACA /* Pods-AGMobileGiftInterface_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGMobileGiftInterface_Example-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F0F485426C03D7D22CBEABC5299A0D1 /* AGMobileGiftInterface-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGMobileGiftInterface-umbrella.h"; sourceTree = "<group>"; };
-		B3A920D339636EF2EB1718A4F4EBC6B5 /* Pods-AGMobileGiftInterface_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Example-frameworks.sh"; sourceTree = "<group>"; };
-		B60C4576B374E7D66029D190746E3DE6 /* Pods_AGMobileGiftInterface_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGMobileGiftInterface_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7BA298B49FBBAA0F617126F6E3C70FB /* Pods-AGMobileGiftInterface_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGMobileGiftInterface_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BDD2C006E91BB9647FC99DC2EA1EA6CC /* AGMobileGiftInterface.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AGMobileGiftInterface.modulemap; sourceTree = "<group>"; };
-		C1E8633AA2132B34A5A38E18E9B8E085 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CEA128811E9F7402008E5E43 /* AGMobileGiftInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGMobileGiftInterface.swift; sourceTree = "<group>"; };
-		CEA128831E9F744C008E5E43 /* AGGifImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGGifImage.swift; sourceTree = "<group>"; };
-		CEA128841E9F744C008E5E43 /* AGGifImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGGifImageView.swift; sourceTree = "<group>"; };
-		CEA128851E9F744C008E5E43 /* AGImageStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGImageStorage.swift; sourceTree = "<group>"; };
-		CEA128861E9F744C008E5E43 /* AGImageViewStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGImageViewStorage.swift; sourceTree = "<group>"; };
-		CEA128871E9F744C008E5E43 /* AGVisibleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AGVisibleViewController.swift; sourceTree = "<group>"; };
-		D0BBF9E224CC7D14566B9A429C0C59EE /* Pods-AGMobileGiftInterface_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D29D98228CFBAD37DC4D6683E4CDD088 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4E5FC7420DE16B71571FA3893D235E7 /* Pods-AGMobileGiftInterface_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DB4C02C93F860AC8458D19A3FBC36E69 /* Pods-AGMobileGiftInterface_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGMobileGiftInterface_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		DF0F2CDBACBAE1E09DD8569801556896 /* Pods-AGMobileGiftInterface_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGMobileGiftInterface_Example.modulemap"; sourceTree = "<group>"; };
-		DF9E847C17BADAD7ED7F521212CAC6ED /* Pods-AGMobileGiftInterface_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F0437B981055A4ECF8F87BFF60CD7682 /* AGMobileGiftInterface-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGMobileGiftInterface-dummy.m"; sourceTree = "<group>"; };
-		F404A7F3989331517722075EB68BB556 /* Pods-AGMobileGiftInterface_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGMobileGiftInterface_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F4A1E23C796C93525CF547899CF81187 /* Pods-AGMobileGiftInterface_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0918EF7216660A5B0FA1EC0CABF4C43C /* AGMobileGiftInterface-iOS8.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AGMobileGiftInterface-iOS8.3.xcconfig"; sourceTree = "<group>"; };
+		092805E79CAF55577C3ECE149C8460EE /* Pods_AGMobileGiftInterface_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGMobileGiftInterface_Tests.framework; path = "Pods-AGMobileGiftInterface_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9845F72131D96DB6301F0367DC01EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0FCCFA9006EE2E56FF4D60A6A6B46279 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../AGMobileGiftInterface-iOS9.1/Info.plist"; sourceTree = "<group>"; };
+		12DB1F98861FE71B295B9D1E2CC4F27F /* Pods-AGGravityServiceExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGGravityServiceExample-frameworks.sh"; sourceTree = "<group>"; };
+		18CF132170F1245EDDBE1891E3582063 /* Pods-AGMobileGiftInterface_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		1BAC8BCD0B878351DF588044FBEB65C8 /* Pods-AGMobileGiftInterface_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Tests-resources.sh"; sourceTree = "<group>"; };
+		1BBA7E6240D3D98AFBA842AB425D6276 /* AGMobileGiftInterface-iOS9.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AGMobileGiftInterface-iOS9.1-prefix.pch"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1-prefix.pch"; sourceTree = "<group>"; };
+		1C1BCC7B5EC26749E1DED99D9AF3A3E8 /* Pods-AGGravityServiceExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGGravityServiceExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		20AEAA93B69FEE3EC46DE6C1CA98534A /* Pods-AGMobileGiftInterface_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Example-resources.sh"; sourceTree = "<group>"; };
+		2291F2BB211D55063E60F0511782D4C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ABBC7C0F05DB499F568FEA94786003E /* Pods-AGGravityServiceExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGGravityServiceExample-dummy.m"; sourceTree = "<group>"; };
+		2B30FCEE0A1E9BE09B3E28098F61A305 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C928E202C9A03FEAC53A4EE74C34A41 /* Pods-AGMobileGiftInterface_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGMobileGiftInterface_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E613736FE89264DAF337235F19B3B73 /* AGMobileGiftInterface-iOS8.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGMobileGiftInterface-iOS8.3-dummy.m"; sourceTree = "<group>"; };
+		2EEE26892B28A02914508AEB8AB769E2 /* AGMobileGiftInterface-iOS8.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGMobileGiftInterface-iOS8.3-prefix.pch"; sourceTree = "<group>"; };
+		41B9CD3577E1CCE54E79E581BC7C41B9 /* Pods-AGMobileGiftInterface_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGMobileGiftInterface_Example.modulemap"; sourceTree = "<group>"; };
+		4D6709C05EF7A68F22C6608A26D725E0 /* AGGifImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGGifImage.swift; sourceTree = "<group>"; };
+		5213D0EC1C745AE7D38C15185F0E49D7 /* Pods-AGMobileGiftInterface_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGMobileGiftInterface_Tests.modulemap"; sourceTree = "<group>"; };
+		5B8A9C7E726F92DE0E503E21D02D7F24 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		5BE402F4C658CAD0DE29B2795EC333CF /* Pods-AGMobileGiftInterface_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGMobileGiftInterface_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63AAACDF67EB7A60F7B26605F0C0E053 /* AGMobileGiftInterface-iOS9.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AGMobileGiftInterface-iOS9.1-umbrella.h"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1-umbrella.h"; sourceTree = "<group>"; };
+		64DED9427314AEE3C9C9E78D8A1CA83E /* AGImageStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGImageStorage.swift; sourceTree = "<group>"; };
+		763A6CA31FF0A7A2B983F9CE88D3DD89 /* AGMobileGiftInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AGMobileGiftInterface.framework; path = "AGMobileGiftInterface-iOS9.1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE33A02BD879829747E72024955BC92 /* AGMobileGiftInterface-iOS9.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "AGMobileGiftInterface-iOS9.1.xcconfig"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1.xcconfig"; sourceTree = "<group>"; };
+		7B29BAAF881706BB09606A6E4F8F2E6A /* Pods-AGMobileGiftInterface_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGMobileGiftInterface_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D876C28B8DA041F213B36063507FCA7 /* Pods-AGGravityServiceExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGGravityServiceExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E30606D717A541FA9E19D577CDBA2B2 /* AGMobileGiftInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AGMobileGiftInterface.framework; path = "AGMobileGiftInterface-iOS8.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE08828A599D04749E6BD8D7650CDC3 /* AGMobileGiftInterface-iOS8.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGMobileGiftInterface-iOS8.3-umbrella.h"; sourceTree = "<group>"; };
+		83207A7D47980B1443E762FED0F5A0A5 /* AGVisibleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGVisibleViewController.swift; sourceTree = "<group>"; };
+		83E1B8EA784C036B9EF61DBF0602537A /* Pods-AGMobileGiftInterface_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Example-frameworks.sh"; sourceTree = "<group>"; };
+		90557A16422535C4A568D33BF682AB77 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9605BBB7F712C85A8A7B8DD1BC9EE559 /* Pods-AGGravityServiceExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGGravityServiceExample.release.xcconfig"; sourceTree = "<group>"; };
+		979BB035860086EAA804686931861255 /* Pods_AGGravityServiceExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGGravityServiceExample.framework; path = "Pods-AGGravityServiceExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F12617AB7D65BAC0DDAB5F6D0975D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9EFD0BBFDB2DFE4EF65DFF026982D18A /* Pods_AGMobileGiftInterface_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGMobileGiftInterface_Example.framework; path = "Pods-AGMobileGiftInterface_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACEBD36A9B90D27626911195F00CCA91 /* Pods-AGGravityServiceExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGGravityServiceExample-umbrella.h"; sourceTree = "<group>"; };
+		B744CFA5ACE0BCF4EBE83EE47EDCCF6E /* AGImageViewStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGImageViewStorage.swift; sourceTree = "<group>"; };
+		B8ECADB121B119C954D7439B032E252A /* Pods-AGMobileGiftInterface_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGMobileGiftInterface_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BA0D323391CD02720783A5EA6E06FDE4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC0C86735C15E99DCDC8889C582FF0B3 /* Pods-AGMobileGiftInterface_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGMobileGiftInterface_Tests-dummy.m"; sourceTree = "<group>"; };
+		BD07D81A25D3015FF251A37389715234 /* Pods-AGMobileGiftInterface_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGMobileGiftInterface_Example-umbrella.h"; sourceTree = "<group>"; };
+		C145BFF69C6522EE9392D3675125D120 /* AGGravityService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGGravityService.swift; sourceTree = "<group>"; };
+		C25DA195858ADF94640C07DD98E3AA43 /* AGGifImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGGifImageView.swift; sourceTree = "<group>"; };
+		C6D8A94F8C919D4080BEB7A2A0393235 /* AGMobileGiftInterface-iOS8.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "AGMobileGiftInterface-iOS8.3.modulemap"; sourceTree = "<group>"; };
+		CF77D8007C97F67577540B16A17232CB /* Pods-AGMobileGiftInterface_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D0AA6C0C8D669745F8EA12F81D20E0FC /* Pods-AGGravityServiceExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGGravityServiceExample-resources.sh"; sourceTree = "<group>"; };
+		D3CAD1F84A73BF0ADA2332E99364A497 /* Pods-AGMobileGiftInterface_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		DE5011F1192628B6BA596C37E3BE2AB6 /* Pods-AGMobileGiftInterface_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E06F926E755D960896EA27B330B08398 /* Pods-AGGravityServiceExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGGravityServiceExample.modulemap"; sourceTree = "<group>"; };
+		E1AE477A27643CD7FAFA6CA44CF7829E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26AA98CC15260BAD0CE5ED72F570D62 /* Pods-AGMobileGiftInterface_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGMobileGiftInterface_Example-dummy.m"; sourceTree = "<group>"; };
+		E57D4EFA0AE64D2FB4A62A8F69EE3112 /* Pods-AGMobileGiftInterface_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGMobileGiftInterface_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE821BB99CDAB775DE5F01CD3CBD620A /* AGMobileGiftInterface-iOS9.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AGMobileGiftInterface-iOS9.1-dummy.m"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1-dummy.m"; sourceTree = "<group>"; };
+		F192610EC4FE6E51CD8A62CA60BE0218 /* AGMobileGiftInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGMobileGiftInterface.swift; sourceTree = "<group>"; };
+		F45FD641F3C58943C8C03E0C942FB9AA /* Pods-AGMobileGiftInterface_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F52247BB0EB7BAE25CACB9507F626589 /* AGMobileGiftInterface-iOS9.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "AGMobileGiftInterface-iOS9.1.modulemap"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1.modulemap"; sourceTree = "<group>"; };
+		FC4F30229528F699329672AD57AF4B16 /* Pods-AGGravityServiceExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGGravityServiceExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,94 +132,129 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		72F913CAC46C74008A4D234C1C96CDA1 /* Frameworks */ = {
+		4E84A12DDB5962F29888AD9005930C04 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BDA8F47C913172D0BB73F5C07876000 /* Foundation.framework in Frameworks */,
+				68451856539934DA760677B221E40EED /* CoreMotion.framework in Frameworks */,
+				90BDB0686A291EF994CBFFB870B40862 /* Foundation.framework in Frameworks */,
+				29D4453B8E39808DAF495D698C0ED61C /* ImageIO.framework in Frameworks */,
+				12FB51A33210846310D13E12A42299E0 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E14B5F2374172F3BD5CDD3CB0DE2FFAC /* Frameworks */ = {
+		5C91B63A3040B47E3DFD571FD6EF37E1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAC1187678AC9008A8BA7B7E81695B42 /* Foundation.framework in Frameworks */,
+				0F380097739F8DB553576BB3596E66B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8642695ACCCCE74D477F9E6CDDFDE366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F2D463D8BDC5E9973AC4E53B1B90E8 /* CoreMotion.framework in Frameworks */,
+				12324FC6C89B7302BAD46A5CD85385FD /* Foundation.framework in Frameworks */,
+				E863B5CECDD367857BEBD0A392C84AA9 /* ImageIO.framework in Frameworks */,
+				AA41965723AC950E7BB7474AA7116492 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37FFAAA7D0B9797419D535BAFEE6619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EED351C3B8DE5C200CFE1AAC146EB6C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		207D34B735202D16B3D095C08976E3DF /* Classes */ = {
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CEA128831E9F744C008E5E43 /* AGGifImage.swift */,
-				CEA128841E9F744C008E5E43 /* AGGifImageView.swift */,
-				CEA128851E9F744C008E5E43 /* AGImageStorage.swift */,
-				CEA128861E9F744C008E5E43 /* AGImageViewStorage.swift */,
-				CEA128811E9F7402008E5E43 /* AGMobileGiftInterface.swift */,
-				CEA128871E9F744C008E5E43 /* AGVisibleViewController.swift */,
+				3670B2B08A979E84009B447E3BDC8430 /* iOS */,
 			);
-			path = Classes;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		23563AB86976801C6E94304F096D984B /* AGMobileGiftInterface */ = {
+		1F1DBECD04F39A96889A46B14A037E7A /* Pods-AGMobileGiftInterface_Example */ = {
 			isa = PBXGroup;
 			children = (
-				207D34B735202D16B3D095C08976E3DF /* Classes */,
-			);
-			path = AGMobileGiftInterface;
-			sourceTree = "<group>";
-		};
-		2B43317DEE84DE81922D5DFB6CD8AE37 /* Pods-AGMobileGiftInterface_Example */ = {
-			isa = PBXGroup;
-			children = (
-				C1E8633AA2132B34A5A38E18E9B8E085 /* Info.plist */,
-				DF0F2CDBACBAE1E09DD8569801556896 /* Pods-AGMobileGiftInterface_Example.modulemap */,
-				B7BA298B49FBBAA0F617126F6E3C70FB /* Pods-AGMobileGiftInterface_Example-acknowledgements.markdown */,
-				70B317BE367CA43FF1113C1B69C25322 /* Pods-AGMobileGiftInterface_Example-acknowledgements.plist */,
-				4A9BF8ADB3C8240C61A946B0B50A4D99 /* Pods-AGMobileGiftInterface_Example-dummy.m */,
-				B3A920D339636EF2EB1718A4F4EBC6B5 /* Pods-AGMobileGiftInterface_Example-frameworks.sh */,
-				8C04718A559B8C73C38E2905B1C991D3 /* Pods-AGMobileGiftInterface_Example-resources.sh */,
-				8CAEDBBDA1AF09EA58F7402818A0CACA /* Pods-AGMobileGiftInterface_Example-umbrella.h */,
-				D0BBF9E224CC7D14566B9A429C0C59EE /* Pods-AGMobileGiftInterface_Example.debug.xcconfig */,
-				56EFE2884AA373443B108CB3F0949C75 /* Pods-AGMobileGiftInterface_Example.release.xcconfig */,
+				E1AE477A27643CD7FAFA6CA44CF7829E /* Info.plist */,
+				41B9CD3577E1CCE54E79E581BC7C41B9 /* Pods-AGMobileGiftInterface_Example.modulemap */,
+				2C928E202C9A03FEAC53A4EE74C34A41 /* Pods-AGMobileGiftInterface_Example-acknowledgements.markdown */,
+				E57D4EFA0AE64D2FB4A62A8F69EE3112 /* Pods-AGMobileGiftInterface_Example-acknowledgements.plist */,
+				E26AA98CC15260BAD0CE5ED72F570D62 /* Pods-AGMobileGiftInterface_Example-dummy.m */,
+				83E1B8EA784C036B9EF61DBF0602537A /* Pods-AGMobileGiftInterface_Example-frameworks.sh */,
+				20AEAA93B69FEE3EC46DE6C1CA98534A /* Pods-AGMobileGiftInterface_Example-resources.sh */,
+				BD07D81A25D3015FF251A37389715234 /* Pods-AGMobileGiftInterface_Example-umbrella.h */,
+				D3CAD1F84A73BF0ADA2332E99364A497 /* Pods-AGMobileGiftInterface_Example.debug.xcconfig */,
+				CF77D8007C97F67577540B16A17232CB /* Pods-AGMobileGiftInterface_Example.release.xcconfig */,
 			);
 			name = "Pods-AGMobileGiftInterface_Example";
 			path = "Target Support Files/Pods-AGMobileGiftInterface_Example";
 			sourceTree = "<group>";
 		};
-		42192B5460693BCC59C0A1A83CCBA0A2 /* AGMobileGiftInterface */ = {
+		3033BE6B25186069BFD970E15AED6099 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				23563AB86976801C6E94304F096D984B /* AGMobileGiftInterface */,
-				54FB57C41CABC02D7E6A502A194A46E5 /* Support Files */,
+				7E30606D717A541FA9E19D577CDBA2B2 /* AGMobileGiftInterface.framework */,
+				763A6CA31FF0A7A2B983F9CE88D3DD89 /* AGMobileGiftInterface.framework */,
+				979BB035860086EAA804686931861255 /* Pods_AGGravityServiceExample.framework */,
+				9EFD0BBFDB2DFE4EF65DFF026982D18A /* Pods_AGMobileGiftInterface_Example.framework */,
+				092805E79CAF55577C3ECE149C8460EE /* Pods_AGMobileGiftInterface_Tests.framework */,
 			);
-			name = AGMobileGiftInterface;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		54FB57C41CABC02D7E6A502A194A46E5 /* Support Files */ = {
+		3670B2B08A979E84009B447E3BDC8430 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				BDD2C006E91BB9647FC99DC2EA1EA6CC /* AGMobileGiftInterface.modulemap */,
-				4759EDE2A95A3CE48EA4043279B6F41C /* AGMobileGiftInterface.xcconfig */,
-				F0437B981055A4ECF8F87BFF60CD7682 /* AGMobileGiftInterface-dummy.m */,
-				0FC190AD9B4CAA38F6408FF0E6F414CF /* AGMobileGiftInterface-prefix.pch */,
-				9F0F485426C03D7D22CBEABC5299A0D1 /* AGMobileGiftInterface-umbrella.h */,
-				D29D98228CFBAD37DC4D6683E4CDD088 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AGMobileGiftInterface";
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+				5B8A9C7E726F92DE0E503E21D02D7F24 /* CoreMotion.framework */,
+				0A9845F72131D96DB6301F0367DC01EA /* Foundation.framework */,
+				90557A16422535C4A568D33BF682AB77 /* ImageIO.framework */,
+				98F12617AB7D65BAC0DDAB5F6D0975D1 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E8C34D5EE5864584C18BA3901AE3B20 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6D8A94F8C919D4080BEB7A2A0393235 /* AGMobileGiftInterface-iOS8.3.modulemap */,
+				0918EF7216660A5B0FA1EC0CABF4C43C /* AGMobileGiftInterface-iOS8.3.xcconfig */,
+				2E613736FE89264DAF337235F19B3B73 /* AGMobileGiftInterface-iOS8.3-dummy.m */,
+				2EEE26892B28A02914508AEB8AB769E2 /* AGMobileGiftInterface-iOS8.3-prefix.pch */,
+				7EE08828A599D04749E6BD8D7650CDC3 /* AGMobileGiftInterface-iOS8.3-umbrella.h */,
+				F52247BB0EB7BAE25CACB9507F626589 /* AGMobileGiftInterface-iOS9.1.modulemap */,
+				7AE33A02BD879829747E72024955BC92 /* AGMobileGiftInterface-iOS9.1.xcconfig */,
+				EE821BB99CDAB775DE5F01CD3CBD620A /* AGMobileGiftInterface-iOS9.1-dummy.m */,
+				1BBA7E6240D3D98AFBA842AB425D6276 /* AGMobileGiftInterface-iOS9.1-prefix.pch */,
+				63AAACDF67EB7A60F7B26605F0C0E053 /* AGMobileGiftInterface-iOS9.1-umbrella.h */,
+				2291F2BB211D55063E60F0511782D4C9 /* Info.plist */,
+				0FCCFA9006EE2E56FF4D60A6A6B46279 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AGMobileGiftInterface-iOS8.3";
+			sourceTree = "<group>";
+		};
+		69C788F3B28ED8EADCB8F8059A55FFCE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D6709C05EF7A68F22C6608A26D725E0 /* AGGifImage.swift */,
+				C25DA195858ADF94640C07DD98E3AA43 /* AGGifImageView.swift */,
+				C145BFF69C6522EE9392D3675125D120 /* AGGravityService.swift */,
+				64DED9427314AEE3C9C9E78D8A1CA83E /* AGImageStorage.swift */,
+				B744CFA5ACE0BCF4EBE83EE47EDCCF6E /* AGImageViewStorage.swift */,
+				F192610EC4FE6E51CD8A62CA60BE0218 /* AGMobileGiftInterface.swift */,
+				83207A7D47980B1443E762FED0F5A0A5 /* AGVisibleViewController.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -178,81 +262,117 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				9B83C0C55182622FC8094803C80C0456 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				B508DCBCD10673188827373812E5CAA1 /* Products */,
-				BA1AC3A54CAFBED158CE4FFC343C646B /* Targets Support Files */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				3033BE6B25186069BFD970E15AED6099 /* Products */,
+				9D42E741E8C9CF084AA1EDD14283A916 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8C0E1788413A5C46169440F313FB6156 /* Pods-AGMobileGiftInterface_Tests */ = {
+		91699E0684A9EC1066B5CEDB72EA008A /* Pods-AGMobileGiftInterface_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5B8A35590ADB839CC674A28F6EFE2D13 /* Info.plist */,
-				165694733A968DC24D196DD55CD5C5A0 /* Pods-AGMobileGiftInterface_Tests.modulemap */,
-				195E2452167EE86460E6E57B02C9210B /* Pods-AGMobileGiftInterface_Tests-acknowledgements.markdown */,
-				DB4C02C93F860AC8458D19A3FBC36E69 /* Pods-AGMobileGiftInterface_Tests-acknowledgements.plist */,
-				194CF17EC60B3BA15ADD4486656DE773 /* Pods-AGMobileGiftInterface_Tests-dummy.m */,
-				DF9E847C17BADAD7ED7F521212CAC6ED /* Pods-AGMobileGiftInterface_Tests-frameworks.sh */,
-				21B26DDDBDF0AF1FA569C76CE7C47855 /* Pods-AGMobileGiftInterface_Tests-resources.sh */,
-				F404A7F3989331517722075EB68BB556 /* Pods-AGMobileGiftInterface_Tests-umbrella.h */,
-				D4E5FC7420DE16B71571FA3893D235E7 /* Pods-AGMobileGiftInterface_Tests.debug.xcconfig */,
-				F4A1E23C796C93525CF547899CF81187 /* Pods-AGMobileGiftInterface_Tests.release.xcconfig */,
+				2B30FCEE0A1E9BE09B3E28098F61A305 /* Info.plist */,
+				5213D0EC1C745AE7D38C15185F0E49D7 /* Pods-AGMobileGiftInterface_Tests.modulemap */,
+				5BE402F4C658CAD0DE29B2795EC333CF /* Pods-AGMobileGiftInterface_Tests-acknowledgements.markdown */,
+				7B29BAAF881706BB09606A6E4F8F2E6A /* Pods-AGMobileGiftInterface_Tests-acknowledgements.plist */,
+				BC0C86735C15E99DCDC8889C582FF0B3 /* Pods-AGMobileGiftInterface_Tests-dummy.m */,
+				F45FD641F3C58943C8C03E0C942FB9AA /* Pods-AGMobileGiftInterface_Tests-frameworks.sh */,
+				1BAC8BCD0B878351DF588044FBEB65C8 /* Pods-AGMobileGiftInterface_Tests-resources.sh */,
+				B8ECADB121B119C954D7439B032E252A /* Pods-AGMobileGiftInterface_Tests-umbrella.h */,
+				DE5011F1192628B6BA596C37E3BE2AB6 /* Pods-AGMobileGiftInterface_Tests.debug.xcconfig */,
+				18CF132170F1245EDDBE1891E3582063 /* Pods-AGMobileGiftInterface_Tests.release.xcconfig */,
 			);
 			name = "Pods-AGMobileGiftInterface_Tests";
 			path = "Target Support Files/Pods-AGMobileGiftInterface_Tests";
 			sourceTree = "<group>";
 		};
+		9B00A4F97A674D0D292FE9A6D2ED918B /* Pods-AGGravityServiceExample */ = {
+			isa = PBXGroup;
+			children = (
+				BA0D323391CD02720783A5EA6E06FDE4 /* Info.plist */,
+				E06F926E755D960896EA27B330B08398 /* Pods-AGGravityServiceExample.modulemap */,
+				7D876C28B8DA041F213B36063507FCA7 /* Pods-AGGravityServiceExample-acknowledgements.markdown */,
+				1C1BCC7B5EC26749E1DED99D9AF3A3E8 /* Pods-AGGravityServiceExample-acknowledgements.plist */,
+				2ABBC7C0F05DB499F568FEA94786003E /* Pods-AGGravityServiceExample-dummy.m */,
+				12DB1F98861FE71B295B9D1E2CC4F27F /* Pods-AGGravityServiceExample-frameworks.sh */,
+				D0AA6C0C8D669745F8EA12F81D20E0FC /* Pods-AGGravityServiceExample-resources.sh */,
+				ACEBD36A9B90D27626911195F00CCA91 /* Pods-AGGravityServiceExample-umbrella.h */,
+				FC4F30229528F699329672AD57AF4B16 /* Pods-AGGravityServiceExample.debug.xcconfig */,
+				9605BBB7F712C85A8A7B8DD1BC9EE559 /* Pods-AGGravityServiceExample.release.xcconfig */,
+			);
+			name = "Pods-AGGravityServiceExample";
+			path = "Target Support Files/Pods-AGGravityServiceExample";
+			sourceTree = "<group>";
+		};
 		9B83C0C55182622FC8094803C80C0456 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				42192B5460693BCC59C0A1A83CCBA0A2 /* AGMobileGiftInterface */,
+				F96187FFD9EE2A7DE24338EF20C9F130 /* AGMobileGiftInterface */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		B508DCBCD10673188827373812E5CAA1 /* Products */ = {
+		9D42E741E8C9CF084AA1EDD14283A916 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				875B2BDD0A3088B6509766D04C69C66F /* AGMobileGiftInterface.framework */,
-				7384E89CD420D9886CDC36B40B877D8E /* Pods_AGMobileGiftInterface_Example.framework */,
-				B60C4576B374E7D66029D190746E3DE6 /* Pods_AGMobileGiftInterface_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BA1AC3A54CAFBED158CE4FFC343C646B /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2B43317DEE84DE81922D5DFB6CD8AE37 /* Pods-AGMobileGiftInterface_Example */,
-				8C0E1788413A5C46169440F313FB6156 /* Pods-AGMobileGiftInterface_Tests */,
+				9B00A4F97A674D0D292FE9A6D2ED918B /* Pods-AGGravityServiceExample */,
+				1F1DBECD04F39A96889A46B14A037E7A /* Pods-AGMobileGiftInterface_Example */,
+				91699E0684A9EC1066B5CEDB72EA008A /* Pods-AGMobileGiftInterface_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		DF0FCA04E12359C874863CB8F6E9E165 /* AGMobileGiftInterface */ = {
 			isa = PBXGroup;
 			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+				69C788F3B28ED8EADCB8F8059A55FFCE /* Classes */,
 			);
-			name = Frameworks;
+			name = AGMobileGiftInterface;
+			path = AGMobileGiftInterface;
+			sourceTree = "<group>";
+		};
+		F96187FFD9EE2A7DE24338EF20C9F130 /* AGMobileGiftInterface */ = {
+			isa = PBXGroup;
+			children = (
+				DF0FCA04E12359C874863CB8F6E9E165 /* AGMobileGiftInterface */,
+				5E8C34D5EE5864584C18BA3901AE3B20 /* Support Files */,
+			);
+			name = AGMobileGiftInterface;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		349BF207554DE4F0F1927C9BD47B8518 /* Headers */ = {
+		37ADF2C1244F3C95906771AC1D33A192 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				128ABD4866A8C5743C9F473132187B0C /* Pods-AGMobileGiftInterface_Example-umbrella.h in Headers */,
+				5A890794F07D013BCE244A8FA3827575 /* AGMobileGiftInterface-iOS8.3-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		924B01F7079D764C3BF0BE35798F3B5F /* Headers */ = {
+		5C86C92E10042C0F6358D4CA9A980819 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AC79F2E8BBD8E20D8E8495D8AD6B415 /* AGMobileGiftInterface-umbrella.h in Headers */,
+				2A449FF16A36B90094A0CF7230764174 /* Pods-AGMobileGiftInterface_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C039B2872260B189753E81A63E07F48B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294C1657B9BE81D582E644A54A0C4F7B /* AGMobileGiftInterface-iOS9.1-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC51BB47482101175BBBDD7973219183 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DFCC1D6757E98616C04597E4C832BA /* Pods-AGGravityServiceExample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,21 +387,56 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2D78A81DD91F8E97366692EC9BE3D846 /* AGMobileGiftInterface */ = {
+		398DCCF73124075F5549008AF78CB51A /* Pods-AGGravityServiceExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17D410706DD5B08F0BAE0AACC4A352BB /* Build configuration list for PBXNativeTarget "AGMobileGiftInterface" */;
+			buildConfigurationList = 65EA783B1F9376228A6B254A0A95D0B5 /* Build configuration list for PBXNativeTarget "Pods-AGGravityServiceExample" */;
 			buildPhases = (
-				A1DF10DB7FAEE819E61D0C3EC7B2CA85 /* Sources */,
-				E14B5F2374172F3BD5CDD3CB0DE2FFAC /* Frameworks */,
-				924B01F7079D764C3BF0BE35798F3B5F /* Headers */,
+				A63A989163223B7332104F14C00427F4 /* Sources */,
+				5C91B63A3040B47E3DFD571FD6EF37E1 /* Frameworks */,
+				CC51BB47482101175BBBDD7973219183 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2ECE549EFCCD9783F34A832F42F7AC /* PBXTargetDependency */,
+			);
+			name = "Pods-AGGravityServiceExample";
+			productName = "Pods-AGGravityServiceExample";
+			productReference = 979BB035860086EAA804686931861255 /* Pods_AGGravityServiceExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		49523D48FC45CBD1F909F875FA93A13E /* AGMobileGiftInterface-iOS8.3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6267117973D0953C6A6C72F6A801FEA6 /* Build configuration list for PBXNativeTarget "AGMobileGiftInterface-iOS8.3" */;
+			buildPhases = (
+				84752E2560DF74600399BCAE26DBC778 /* Sources */,
+				8642695ACCCCE74D477F9E6CDDFDE366 /* Frameworks */,
+				37ADF2C1244F3C95906771AC1D33A192 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AGMobileGiftInterface;
-			productName = AGMobileGiftInterface;
-			productReference = 875B2BDD0A3088B6509766D04C69C66F /* AGMobileGiftInterface.framework */;
+			name = "AGMobileGiftInterface-iOS8.3";
+			productName = "AGMobileGiftInterface-iOS8.3";
+			productReference = 7E30606D717A541FA9E19D577CDBA2B2 /* AGMobileGiftInterface.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C9ACE013A86173C8B319D90B515B157 /* AGMobileGiftInterface-iOS9.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D88632AFF7D3E372D1BA094AB88CE7F /* Build configuration list for PBXNativeTarget "AGMobileGiftInterface-iOS9.1" */;
+			buildPhases = (
+				9EE731B1EED85F24B7D5ECBD75F663E7 /* Sources */,
+				4E84A12DDB5962F29888AD9005930C04 /* Frameworks */,
+				C039B2872260B189753E81A63E07F48B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AGMobileGiftInterface-iOS9.1";
+			productName = "AGMobileGiftInterface-iOS9.1";
+			productReference = 763A6CA31FF0A7A2B983F9CE88D3DD89 /* AGMobileGiftInterface.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A3BEA430F58DB7B56BAB55D684543145 /* Pods-AGMobileGiftInterface_Tests */ = {
@@ -298,25 +453,25 @@
 			);
 			name = "Pods-AGMobileGiftInterface_Tests";
 			productName = "Pods-AGMobileGiftInterface_Tests";
-			productReference = B60C4576B374E7D66029D190746E3DE6 /* Pods_AGMobileGiftInterface_Tests.framework */;
+			productReference = 092805E79CAF55577C3ECE149C8460EE /* Pods_AGMobileGiftInterface_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D536F89A5DA16314F924D53DCA61EAA2 /* Pods-AGMobileGiftInterface_Example */ = {
+		F883FA878B265EDB57F3BB07C0679791 /* Pods-AGMobileGiftInterface_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD4452743107213782B899F715061599 /* Build configuration list for PBXNativeTarget "Pods-AGMobileGiftInterface_Example" */;
+			buildConfigurationList = BED19CC21509B6DCE8D381A60A67865F /* Build configuration list for PBXNativeTarget "Pods-AGMobileGiftInterface_Example" */;
 			buildPhases = (
-				7C1E871DFD2134B88D54DC3C70FC860B /* Sources */,
-				72F913CAC46C74008A4D234C1C96CDA1 /* Frameworks */,
-				349BF207554DE4F0F1927C9BD47B8518 /* Headers */,
+				79BDEBD1907146F6BE8CF9C4EF9A8216 /* Sources */,
+				F37FFAAA7D0B9797419D535BAFEE6619 /* Frameworks */,
+				5C86C92E10042C0F6358D4CA9A980819 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F62A29CFA8FC69518D221566A61BB59E /* PBXTargetDependency */,
+				8FA9CA8BF8E4C71ACB84BB2AB7B29778 /* PBXTargetDependency */,
 			);
 			name = "Pods-AGMobileGiftInterface_Example";
 			productName = "Pods-AGMobileGiftInterface_Example";
-			productReference = 7384E89CD420D9886CDC36B40B877D8E /* Pods_AGMobileGiftInterface_Example.framework */;
+			productReference = 9EFD0BBFDB2DFE4EF65DFF026982D18A /* Pods_AGMobileGiftInterface_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -336,37 +491,63 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B508DCBCD10673188827373812E5CAA1 /* Products */;
+			productRefGroup = 3033BE6B25186069BFD970E15AED6099 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2D78A81DD91F8E97366692EC9BE3D846 /* AGMobileGiftInterface */,
-				D536F89A5DA16314F924D53DCA61EAA2 /* Pods-AGMobileGiftInterface_Example */,
+				49523D48FC45CBD1F909F875FA93A13E /* AGMobileGiftInterface-iOS8.3 */,
+				4C9ACE013A86173C8B319D90B515B157 /* AGMobileGiftInterface-iOS9.1 */,
+				398DCCF73124075F5549008AF78CB51A /* Pods-AGGravityServiceExample */,
+				F883FA878B265EDB57F3BB07C0679791 /* Pods-AGMobileGiftInterface_Example */,
 				A3BEA430F58DB7B56BAB55D684543145 /* Pods-AGMobileGiftInterface_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7C1E871DFD2134B88D54DC3C70FC860B /* Sources */ = {
+		79BDEBD1907146F6BE8CF9C4EF9A8216 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7F0FF2827B35A63669B39064172BB07 /* Pods-AGMobileGiftInterface_Example-dummy.m in Sources */,
+				C50BF3FF8B6B8F01D218409EBFA9704A /* Pods-AGMobileGiftInterface_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1DF10DB7FAEE819E61D0C3EC7B2CA85 /* Sources */ = {
+		84752E2560DF74600399BCAE26DBC778 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA1288B1E9F744C008E5E43 /* AGImageViewStorage.swift in Sources */,
-				CEA1288C1E9F744C008E5E43 /* AGVisibleViewController.swift in Sources */,
-				516BC0E732499049C648E11E9A276167 /* AGMobileGiftInterface-dummy.m in Sources */,
-				CEA128821E9F7402008E5E43 /* AGMobileGiftInterface.swift in Sources */,
-				CEA128881E9F744C008E5E43 /* AGGifImage.swift in Sources */,
-				CEA1288A1E9F744C008E5E43 /* AGImageStorage.swift in Sources */,
-				CEA128891E9F744C008E5E43 /* AGGifImageView.swift in Sources */,
+				34B267A7B1BA81A108E8A14E35DC9D7D /* AGGifImage.swift in Sources */,
+				8FA637DC8E17EF5AA155A6D35E6CAE9F /* AGGifImageView.swift in Sources */,
+				C6250ECB0DFF1A521AC717D5F1CC1AEA /* AGGravityService.swift in Sources */,
+				34219BEA0A754EB10F79C0BA01B7F100 /* AGImageStorage.swift in Sources */,
+				AB18B3310889771193893BC79E4145D2 /* AGImageViewStorage.swift in Sources */,
+				D01A74E6684816949C67BA74BA9C8353 /* AGMobileGiftInterface-iOS8.3-dummy.m in Sources */,
+				884869485B83A0195FB5963D98CA3EFE /* AGMobileGiftInterface.swift in Sources */,
+				0CFFFD99A07BEE8CD070971A4111097D /* AGVisibleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EE731B1EED85F24B7D5ECBD75F663E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A47ADA04415AC59AC6D775C227B84197 /* AGGifImage.swift in Sources */,
+				50528A171DED970E27949B095579016C /* AGGifImageView.swift in Sources */,
+				A010159E40484A6A07909BC096D2E8CF /* AGGravityService.swift in Sources */,
+				C384E8392C5CF174E4FC0A52030234FC /* AGImageStorage.swift in Sources */,
+				4BB20E5928B4EF819A6D4AB235C13C2E /* AGImageViewStorage.swift in Sources */,
+				43DEE149D414AE56743342F2E5B103DE /* AGMobileGiftInterface-iOS9.1-dummy.m in Sources */,
+				A60EA54C484CB145609778F8C3E61E3A /* AGMobileGiftInterface.swift in Sources */,
+				FBF9B67BB22050C14A2D6D717769CFEB /* AGVisibleViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A63A989163223B7332104F14C00427F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF1B03C14E875EE1246421E7FEA4923 /* Pods-AGGravityServiceExample-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,18 +562,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F62A29CFA8FC69518D221566A61BB59E /* PBXTargetDependency */ = {
+		8FA9CA8BF8E4C71ACB84BB2AB7B29778 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = AGMobileGiftInterface;
-			target = 2D78A81DD91F8E97366692EC9BE3D846 /* AGMobileGiftInterface */;
-			targetProxy = AAAE2D236EE001E71800D7E2203A9C7A /* PBXContainerItemProxy */;
+			name = "AGMobileGiftInterface-iOS8.3";
+			target = 49523D48FC45CBD1F909F875FA93A13E /* AGMobileGiftInterface-iOS8.3 */;
+			targetProxy = 6EE0C684D4920D9CA25F514E72606A58 /* PBXContainerItemProxy */;
+		};
+		DF2ECE549EFCCD9783F34A832F42F7AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AGMobileGiftInterface-iOS9.1";
+			target = 4C9ACE013A86173C8B319D90B515B157 /* AGMobileGiftInterface-iOS9.1 */;
+			targetProxy = 76E35C918D64BDB9D81FD973290C643C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		304EE27BB6EEEC4AE008BBE545485B24 /* Release */ = {
+		1B06063E4DC792A7F5C379121EA4F569 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56EFE2884AA373443B108CB3F0949C75 /* Pods-AGMobileGiftInterface_Example.release.xcconfig */;
+			baseConfigurationReference = 7AE33A02BD879829747E72024955BC92 /* AGMobileGiftInterface-iOS9.1.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -405,18 +592,184 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGMobileGiftInterface-iOS9.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AGMobileGiftInterface;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2C08E334637EF2DFBC8D3379CBCD0024 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0918EF7216660A5B0FA1EC0CABF4C43C /* AGMobileGiftInterface-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGMobileGiftInterface-iOS8.3/AGMobileGiftInterface-iOS8.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGMobileGiftInterface-iOS8.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGMobileGiftInterface-iOS8.3/AGMobileGiftInterface-iOS8.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AGMobileGiftInterface;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		382F76F292229CE9F48A0ED5EF5A7A65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0918EF7216660A5B0FA1EC0CABF4C43C /* AGMobileGiftInterface-iOS8.3.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGMobileGiftInterface-iOS8.3/AGMobileGiftInterface-iOS8.3-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGMobileGiftInterface-iOS8.3/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGMobileGiftInterface-iOS8.3/AGMobileGiftInterface-iOS8.3.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AGMobileGiftInterface;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4435609B6C417A385636201B549C4121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CAD1F84A73BF0ADA2332E99364A497 /* Pods-AGMobileGiftInterface_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-AGMobileGiftInterface_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AGMobileGiftInterface_Example/Pods-AGMobileGiftInterface_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = Pods_AGMobileGiftInterface_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4A4ACE8298D397F746E17E92329184F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE33A02BD879829747E72024955BC92 /* AGMobileGiftInterface-iOS9.1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AGMobileGiftInterface-iOS9.1/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AGMobileGiftInterface;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57DD0A0025C7C4E40D36D55B4570B123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9605BBB7F712C85A8A7B8DD1BC9EE559 /* Pods-AGGravityServiceExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AGGravityServiceExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGGravityServiceExample/Pods-AGGravityServiceExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGGravityServiceExample;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -427,7 +780,7 @@
 		};
 		5C0C425FD3EA007D5465BEE02A0D46FE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4A1E23C796C93525CF547899CF81187 /* Pods-AGMobileGiftInterface_Tests.release.xcconfig */;
+			baseConfigurationReference = 18CF132170F1245EDDBE1891E3582063 /* Pods-AGMobileGiftInterface_Tests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -500,15 +853,15 @@
 			};
 			name = Release;
 		};
-		9B51425B1A65A794DFC6A3ABD82B4D7E /* Debug */ = {
+		90F330520D54708AF273CE9F4FFDDA6B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0BBF9E224CC7D14566B9A429C0C59EE /* Pods-AGMobileGiftInterface_Example.debug.xcconfig */;
+			baseConfigurationReference = CF77D8007C97F67577540B16A17232CB /* Pods-AGMobileGiftInterface_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -521,7 +874,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AGMobileGiftInterface_Example/Pods-AGMobileGiftInterface_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -529,16 +882,15 @@
 				PRODUCT_NAME = Pods_AGMobileGiftInterface_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		9B765C1E21A2347CC403F341F4F275D7 /* Debug */ = {
+		9D7E06EEA42A93ADA40A57B074AB8249 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4759EDE2A95A3CE48EA4043279B6F41C /* AGMobileGiftInterface.xcconfig */;
+			baseConfigurationReference = FC4F30229528F699329672AD57AF4B16 /* Pods-AGGravityServiceExample.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -551,18 +903,21 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AGMobileGiftInterface/AGMobileGiftInterface-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AGMobileGiftInterface/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AGGravityServiceExample/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AGMobileGiftInterface/AGMobileGiftInterface.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AGGravityServiceExample/Pods-AGGravityServiceExample.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AGMobileGiftInterface;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AGGravityServiceExample;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -613,41 +968,9 @@
 			};
 			name = Debug;
 		};
-		A6C7759FFAAA608AEC12661AEA8BC5DD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4759EDE2A95A3CE48EA4043279B6F41C /* AGMobileGiftInterface.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AGMobileGiftInterface/AGMobileGiftInterface-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AGMobileGiftInterface/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AGMobileGiftInterface/AGMobileGiftInterface.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AGMobileGiftInterface;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DFB2CF9A7081ACFADA4E77BD9D18B998 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4E5FC7420DE16B71571FA3893D235E7 /* Pods-AGMobileGiftInterface_Tests.debug.xcconfig */;
+			baseConfigurationReference = DE5011F1192628B6BA596C37E3BE2AB6 /* Pods-AGMobileGiftInterface_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -683,15 +1006,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17D410706DD5B08F0BAE0AACC4A352BB /* Build configuration list for PBXNativeTarget "AGMobileGiftInterface" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B765C1E21A2347CC403F341F4F275D7 /* Debug */,
-				A6C7759FFAAA608AEC12661AEA8BC5DD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -701,20 +1015,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6267117973D0953C6A6C72F6A801FEA6 /* Build configuration list for PBXNativeTarget "AGMobileGiftInterface-iOS8.3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				382F76F292229CE9F48A0ED5EF5A7A65 /* Debug */,
+				2C08E334637EF2DFBC8D3379CBCD0024 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EA783B1F9376228A6B254A0A95D0B5 /* Build configuration list for PBXNativeTarget "Pods-AGGravityServiceExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7E06EEA42A93ADA40A57B074AB8249 /* Debug */,
+				57DD0A0025C7C4E40D36D55B4570B123 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D88632AFF7D3E372D1BA094AB88CE7F /* Build configuration list for PBXNativeTarget "AGMobileGiftInterface-iOS9.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A4ACE8298D397F746E17E92329184F2 /* Debug */,
+				1B06063E4DC792A7F5C379121EA4F569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BED19CC21509B6DCE8D381A60A67865F /* Build configuration list for PBXNativeTarget "Pods-AGMobileGiftInterface_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4435609B6C417A385636201B549C4121 /* Debug */,
+				90F330520D54708AF273CE9F4FFDDA6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D6E67CBC7340DC4FC812C6FD95EED5B6 /* Build configuration list for PBXNativeTarget "Pods-AGMobileGiftInterface_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DFB2CF9A7081ACFADA4E77BD9D18B998 /* Debug */,
 				5C0C425FD3EA007D5465BEE02A0D46FE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD4452743107213782B899F715061599 /* Build configuration list for PBXNativeTarget "Pods-AGMobileGiftInterface_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B51425B1A65A794DFC6A3ABD82B4D7E /* Debug */,
-				304EE27BB6EEEC4AE008BBE545485B24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

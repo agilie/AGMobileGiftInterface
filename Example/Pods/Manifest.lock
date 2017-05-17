@@ -1,5 +1,5 @@
 PODS:
-  - AGMobileGiftInterface (0.1.0)
+  - AGMobileGiftInterface (0.1.1)
 
 DEPENDENCIES:
   - AGMobileGiftInterface (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AGMobileGiftInterface: d0b67ee3c55720442e21bf8158bbf49201a77768
+  AGMobileGiftInterface: a4517eb992e8512f1cc1b51d88ccb9263ac09399
 
-PODFILE CHECKSUM: fde6d6a13cd99c3a568fd757300a014176afb98c
+PODFILE CHECKSUM: 49aca73232ebd26a7d68f290ab699357316f1b76
 
 COCOAPODS: 1.2.0.beta.1

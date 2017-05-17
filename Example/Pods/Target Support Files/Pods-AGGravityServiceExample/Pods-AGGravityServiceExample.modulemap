@@ -1,0 +1,6 @@
+framework module Pods_AGGravityServiceExample {
+  umbrella header "Pods-AGGravityServiceExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
