@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AGMobileGiftInterface'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.platform         = :ios, '8.0'
   s.summary          = 'A short description of AGMobileGiftInterface.'
 
@@ -20,7 +20,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Agilie' => 'info@agilie.com' }
-  s.source           = { :git => 'https://github.com/agilie/AGMobileGiftInterface.git', :tag => '0.1.0' }
+  s.source           = { :git => 'https://github.com/agilie/AGMobileGiftInterface.git', :tag => '0.1.2' }
 
   s.ios.deployment_target = '8.0'
 
