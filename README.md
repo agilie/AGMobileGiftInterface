@@ -9,6 +9,10 @@
 <img src="https://cloud.githubusercontent.com/assets/4165054/25009817/bdf0869c-2070-11e7-97ea-860c239bae84.gif" alt="Fox" height="400" width="250" border ="50">   <img src="https://cloud.githubusercontent.com/assets/4165054/25009821/c176ebee-2070-11e7-8008-3a20881604b5.gif" alt="Rabbit" height="400" width="250">
 <img src="https://cloud.githubusercontent.com/assets/4165054/25009823/c400d596-2070-11e7-8e70-4e8e89a4bad4.gif" alt="Ladybird" height="400" width="250">
 
+### StartGravity:
+
+<img src="https://cloud.githubusercontent.com/assets/4165054/26112030/7154b75a-3a5f-11e7-903a-af47b80318af.gif" alt="Everything" height="410" width="250" border ="50">   <img src="https://cloud.githubusercontent.com/assets/4165054/26115830/d1c64b4e-3a69-11e7-97ad-bf1fcbafd8ff.gif" alt="Boundaries" height="410" width="250" border ="50">
+
 [Agilie Team](https://agilie.com/en/ios-development-services) would like to offer you our new lightweight open-source library called AGMobileGiftInterface. 
 This library simplifies interaction with GIF images and can be easily integrated into your project.
 
@@ -59,6 +63,7 @@ After we choose a way to initiate animation, just provide view and duration as p
    We’ve used this library when working on Easter greeting program. Quite simple, it has 3 GIF images in its reserve (Ladybird, Rabbit, Fox) but can also be supplemented with new ones. We made example to congratulate the use on the day of Easter.
 
    Moreover, we have recently supplemented our library with the new interesting animation. In its updated version, our library captures any interface (screen or view) and throws its UI elements over under the influence of gravity, so that one can move them from side to side obliquely. By default, the animation lasts for about 3-4 seconds, but you can adjust its duration at your discretion. After the animation has been completed, all the UI elements returns to their original location.
+
 (Note: We are working with native UI elements (UILabel, UIButton, UIImageView, UISwitch, UISlider, UITExtField, UIProgressView, UITableView/UICollectionView). If listed UI elements embedded in UIView or UIScrollView, library picks it up and animates it separately. We keep on working to handle most intricate interface.)
 
 This animations can be easily used during the development of any application as an event activated after a specified user action.
