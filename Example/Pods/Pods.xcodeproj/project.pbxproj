@@ -38,6 +38,10 @@
 		C384E8392C5CF174E4FC0A52030234FC /* AGImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64DED9427314AEE3C9C9E78D8A1CA83E /* AGImageStorage.swift */; };
 		C50BF3FF8B6B8F01D218409EBFA9704A /* Pods-AGMobileGiftInterface_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E26AA98CC15260BAD0CE5ED72F570D62 /* Pods-AGMobileGiftInterface_Example-dummy.m */; };
 		C6250ECB0DFF1A521AC717D5F1CC1AEA /* AGGravityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C145BFF69C6522EE9392D3675125D120 /* AGGravityService.swift */; };
+		CE19C1F11ECF1999009F7487 /* UIImage+AGScaleAndCropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19C1F01ECF1999009F7487 /* UIImage+AGScaleAndCropImage.swift */; };
+		CE19C1F21ECF1999009F7487 /* UIImage+AGScaleAndCropImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19C1F01ECF1999009F7487 /* UIImage+AGScaleAndCropImage.swift */; };
+		CE19C1F41ECF1A10009F7487 /* UIView+AGCopyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19C1F31ECF1A10009F7487 /* UIView+AGCopyView.swift */; };
+		CE19C1F51ECF1A10009F7487 /* UIView+AGCopyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE19C1F31ECF1A10009F7487 /* UIView+AGCopyView.swift */; };
 		D01A74E6684816949C67BA74BA9C8353 /* AGMobileGiftInterface-iOS8.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E613736FE89264DAF337235F19B3B73 /* AGMobileGiftInterface-iOS8.3-dummy.m */; };
 		E863B5CECDD367857BEBD0A392C84AA9 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90557A16422535C4A568D33BF682AB77 /* ImageIO.framework */; };
 		FBF9B67BB22050C14A2D6D717769CFEB /* AGVisibleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83207A7D47980B1443E762FED0F5A0A5 /* AGVisibleViewController.swift */; };
@@ -63,7 +67,7 @@
 
 /* Begin PBXFileReference section */
 		0918EF7216660A5B0FA1EC0CABF4C43C /* AGMobileGiftInterface-iOS8.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AGMobileGiftInterface-iOS8.3.xcconfig"; sourceTree = "<group>"; };
-		092805E79CAF55577C3ECE149C8460EE /* Pods_AGMobileGiftInterface_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGMobileGiftInterface_Tests.framework; path = "Pods-AGMobileGiftInterface_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		092805E79CAF55577C3ECE149C8460EE /* Pods_AGMobileGiftInterface_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGMobileGiftInterface_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9845F72131D96DB6301F0367DC01EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		0FCCFA9006EE2E56FF4D60A6A6B46279 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../AGMobileGiftInterface-iOS9.1/Info.plist"; sourceTree = "<group>"; };
 		12DB1F98861FE71B295B9D1E2CC4F27F /* Pods-AGGravityServiceExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGGravityServiceExample-frameworks.sh"; sourceTree = "<group>"; };
@@ -78,27 +82,27 @@
 		2C928E202C9A03FEAC53A4EE74C34A41 /* Pods-AGMobileGiftInterface_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGMobileGiftInterface_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2E613736FE89264DAF337235F19B3B73 /* AGMobileGiftInterface-iOS8.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AGMobileGiftInterface-iOS8.3-dummy.m"; sourceTree = "<group>"; };
 		2EEE26892B28A02914508AEB8AB769E2 /* AGMobileGiftInterface-iOS8.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGMobileGiftInterface-iOS8.3-prefix.pch"; sourceTree = "<group>"; };
-		41B9CD3577E1CCE54E79E581BC7C41B9 /* Pods-AGMobileGiftInterface_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGMobileGiftInterface_Example.modulemap"; sourceTree = "<group>"; };
+		41B9CD3577E1CCE54E79E581BC7C41B9 /* Pods-AGMobileGiftInterface_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGMobileGiftInterface_Example.modulemap"; sourceTree = "<group>"; };
 		4D6709C05EF7A68F22C6608A26D725E0 /* AGGifImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGGifImage.swift; sourceTree = "<group>"; };
-		5213D0EC1C745AE7D38C15185F0E49D7 /* Pods-AGMobileGiftInterface_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGMobileGiftInterface_Tests.modulemap"; sourceTree = "<group>"; };
+		5213D0EC1C745AE7D38C15185F0E49D7 /* Pods-AGMobileGiftInterface_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGMobileGiftInterface_Tests.modulemap"; sourceTree = "<group>"; };
 		5B8A9C7E726F92DE0E503E21D02D7F24 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
 		5BE402F4C658CAD0DE29B2795EC333CF /* Pods-AGMobileGiftInterface_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGMobileGiftInterface_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		63AAACDF67EB7A60F7B26605F0C0E053 /* AGMobileGiftInterface-iOS9.1-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AGMobileGiftInterface-iOS9.1-umbrella.h"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1-umbrella.h"; sourceTree = "<group>"; };
 		64DED9427314AEE3C9C9E78D8A1CA83E /* AGImageStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGImageStorage.swift; sourceTree = "<group>"; };
-		763A6CA31FF0A7A2B983F9CE88D3DD89 /* AGMobileGiftInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AGMobileGiftInterface.framework; path = "AGMobileGiftInterface-iOS9.1.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		763A6CA31FF0A7A2B983F9CE88D3DD89 /* AGMobileGiftInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGMobileGiftInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE33A02BD879829747E72024955BC92 /* AGMobileGiftInterface-iOS9.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "AGMobileGiftInterface-iOS9.1.xcconfig"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1.xcconfig"; sourceTree = "<group>"; };
 		7B29BAAF881706BB09606A6E4F8F2E6A /* Pods-AGMobileGiftInterface_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGMobileGiftInterface_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7D876C28B8DA041F213B36063507FCA7 /* Pods-AGGravityServiceExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AGGravityServiceExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E30606D717A541FA9E19D577CDBA2B2 /* AGMobileGiftInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AGMobileGiftInterface.framework; path = "AGMobileGiftInterface-iOS8.3.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E30606D717A541FA9E19D577CDBA2B2 /* AGMobileGiftInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AGMobileGiftInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE08828A599D04749E6BD8D7650CDC3 /* AGMobileGiftInterface-iOS8.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AGMobileGiftInterface-iOS8.3-umbrella.h"; sourceTree = "<group>"; };
 		83207A7D47980B1443E762FED0F5A0A5 /* AGVisibleViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGVisibleViewController.swift; sourceTree = "<group>"; };
 		83E1B8EA784C036B9EF61DBF0602537A /* Pods-AGMobileGiftInterface_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Example-frameworks.sh"; sourceTree = "<group>"; };
 		90557A16422535C4A568D33BF682AB77 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9605BBB7F712C85A8A7B8DD1BC9EE559 /* Pods-AGGravityServiceExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGGravityServiceExample.release.xcconfig"; sourceTree = "<group>"; };
-		979BB035860086EAA804686931861255 /* Pods_AGGravityServiceExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGGravityServiceExample.framework; path = "Pods-AGGravityServiceExample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		979BB035860086EAA804686931861255 /* Pods_AGGravityServiceExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGGravityServiceExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F12617AB7D65BAC0DDAB5F6D0975D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		9EFD0BBFDB2DFE4EF65DFF026982D18A /* Pods_AGMobileGiftInterface_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AGMobileGiftInterface_Example.framework; path = "Pods-AGMobileGiftInterface_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFD0BBFDB2DFE4EF65DFF026982D18A /* Pods_AGMobileGiftInterface_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AGMobileGiftInterface_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACEBD36A9B90D27626911195F00CCA91 /* Pods-AGGravityServiceExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGGravityServiceExample-umbrella.h"; sourceTree = "<group>"; };
 		B744CFA5ACE0BCF4EBE83EE47EDCCF6E /* AGImageViewStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGImageViewStorage.swift; sourceTree = "<group>"; };
 		B8ECADB121B119C954D7439B032E252A /* Pods-AGMobileGiftInterface_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGMobileGiftInterface_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -107,19 +111,21 @@
 		BD07D81A25D3015FF251A37389715234 /* Pods-AGMobileGiftInterface_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AGMobileGiftInterface_Example-umbrella.h"; sourceTree = "<group>"; };
 		C145BFF69C6522EE9392D3675125D120 /* AGGravityService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGGravityService.swift; sourceTree = "<group>"; };
 		C25DA195858ADF94640C07DD98E3AA43 /* AGGifImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGGifImageView.swift; sourceTree = "<group>"; };
-		C6D8A94F8C919D4080BEB7A2A0393235 /* AGMobileGiftInterface-iOS8.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "AGMobileGiftInterface-iOS8.3.modulemap"; sourceTree = "<group>"; };
+		C6D8A94F8C919D4080BEB7A2A0393235 /* AGMobileGiftInterface-iOS8.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "AGMobileGiftInterface-iOS8.3.modulemap"; sourceTree = "<group>"; };
+		CE19C1F01ECF1999009F7487 /* UIImage+AGScaleAndCropImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+AGScaleAndCropImage.swift"; sourceTree = "<group>"; };
+		CE19C1F31ECF1A10009F7487 /* UIView+AGCopyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AGCopyView.swift"; sourceTree = "<group>"; };
 		CF77D8007C97F67577540B16A17232CB /* Pods-AGMobileGiftInterface_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D0AA6C0C8D669745F8EA12F81D20E0FC /* Pods-AGGravityServiceExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGGravityServiceExample-resources.sh"; sourceTree = "<group>"; };
 		D3CAD1F84A73BF0ADA2332E99364A497 /* Pods-AGMobileGiftInterface_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DE5011F1192628B6BA596C37E3BE2AB6 /* Pods-AGMobileGiftInterface_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGMobileGiftInterface_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E06F926E755D960896EA27B330B08398 /* Pods-AGGravityServiceExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AGGravityServiceExample.modulemap"; sourceTree = "<group>"; };
+		E06F926E755D960896EA27B330B08398 /* Pods-AGGravityServiceExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AGGravityServiceExample.modulemap"; sourceTree = "<group>"; };
 		E1AE477A27643CD7FAFA6CA44CF7829E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E26AA98CC15260BAD0CE5ED72F570D62 /* Pods-AGMobileGiftInterface_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AGMobileGiftInterface_Example-dummy.m"; sourceTree = "<group>"; };
 		E57D4EFA0AE64D2FB4A62A8F69EE3112 /* Pods-AGMobileGiftInterface_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AGMobileGiftInterface_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE821BB99CDAB775DE5F01CD3CBD620A /* AGMobileGiftInterface-iOS9.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "AGMobileGiftInterface-iOS9.1-dummy.m"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1-dummy.m"; sourceTree = "<group>"; };
 		F192610EC4FE6E51CD8A62CA60BE0218 /* AGMobileGiftInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AGMobileGiftInterface.swift; sourceTree = "<group>"; };
 		F45FD641F3C58943C8C03E0C942FB9AA /* Pods-AGMobileGiftInterface_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AGMobileGiftInterface_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F52247BB0EB7BAE25CACB9507F626589 /* AGMobileGiftInterface-iOS9.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = "AGMobileGiftInterface-iOS9.1.modulemap"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1.modulemap"; sourceTree = "<group>"; };
+		F52247BB0EB7BAE25CACB9507F626589 /* AGMobileGiftInterface-iOS9.1.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "AGMobileGiftInterface-iOS9.1.modulemap"; path = "../AGMobileGiftInterface-iOS9.1/AGMobileGiftInterface-iOS9.1.modulemap"; sourceTree = "<group>"; };
 		FC4F30229528F699329672AD57AF4B16 /* Pods-AGGravityServiceExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AGGravityServiceExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -252,8 +258,9 @@
 				B744CFA5ACE0BCF4EBE83EE47EDCCF6E /* AGImageViewStorage.swift */,
 				F192610EC4FE6E51CD8A62CA60BE0218 /* AGMobileGiftInterface.swift */,
 				83207A7D47980B1443E762FED0F5A0A5 /* AGVisibleViewController.swift */,
+				CE19C1F01ECF1999009F7487 /* UIImage+AGScaleAndCropImage.swift */,
+				CE19C1F31ECF1A10009F7487 /* UIView+AGCopyView.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -327,7 +334,6 @@
 			children = (
 				69C788F3B28ED8EADCB8F8059A55FFCE /* Classes */,
 			);
-			name = AGMobileGiftInterface;
 			path = AGMobileGiftInterface;
 			sourceTree = "<group>";
 		};
@@ -517,11 +523,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE19C1F41ECF1A10009F7487 /* UIView+AGCopyView.swift in Sources */,
 				34B267A7B1BA81A108E8A14E35DC9D7D /* AGGifImage.swift in Sources */,
 				8FA637DC8E17EF5AA155A6D35E6CAE9F /* AGGifImageView.swift in Sources */,
 				C6250ECB0DFF1A521AC717D5F1CC1AEA /* AGGravityService.swift in Sources */,
 				34219BEA0A754EB10F79C0BA01B7F100 /* AGImageStorage.swift in Sources */,
 				AB18B3310889771193893BC79E4145D2 /* AGImageViewStorage.swift in Sources */,
+				CE19C1F11ECF1999009F7487 /* UIImage+AGScaleAndCropImage.swift in Sources */,
 				D01A74E6684816949C67BA74BA9C8353 /* AGMobileGiftInterface-iOS8.3-dummy.m in Sources */,
 				884869485B83A0195FB5963D98CA3EFE /* AGMobileGiftInterface.swift in Sources */,
 				0CFFFD99A07BEE8CD070971A4111097D /* AGVisibleViewController.swift in Sources */,
@@ -532,11 +540,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE19C1F51ECF1A10009F7487 /* UIView+AGCopyView.swift in Sources */,
 				A47ADA04415AC59AC6D775C227B84197 /* AGGifImage.swift in Sources */,
 				50528A171DED970E27949B095579016C /* AGGifImageView.swift in Sources */,
 				A010159E40484A6A07909BC096D2E8CF /* AGGravityService.swift in Sources */,
 				C384E8392C5CF174E4FC0A52030234FC /* AGImageStorage.swift in Sources */,
 				4BB20E5928B4EF819A6D4AB235C13C2E /* AGImageViewStorage.swift in Sources */,
+				CE19C1F21ECF1999009F7487 /* UIImage+AGScaleAndCropImage.swift in Sources */,
 				43DEE149D414AE56743342F2E5B103DE /* AGMobileGiftInterface-iOS9.1-dummy.m in Sources */,
 				A60EA54C484CB145609778F8C3E61E3A /* AGMobileGiftInterface.swift in Sources */,
 				FBF9B67BB22050C14A2D6D717769CFEB /* AGVisibleViewController.swift in Sources */,

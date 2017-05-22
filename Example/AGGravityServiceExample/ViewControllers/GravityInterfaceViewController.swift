@@ -34,7 +34,8 @@ class GravityInterfaceViewController: UIViewController {
     }
         
     @IBAction func startButtonDidTouch(_ sender: Any) {
-        self.agGravityService.startGravityView(view: self.view, duration: 10, collisionMode: .everything)
+//        self.agGravityService.startGravityView(view: self.view, duration: 10, collisionMode: .everything)
+        self.agGravityService.startGravityViewController(viewController: self, duration: 10, collisionMode: .everything)
     }
 }
 
